@@ -7,11 +7,6 @@ v0.0.2
 
 The application has two new features: [Schedule Management](#schedule-management) and [Long-Term Memory](#long-term-memory). With Schedule Management, you can command the chatbot to add, modify, delete, and retrieve scheduled events. The Long-Term Memory feature allows you to store snippets of information that the chatbot will remember for future reference. You can seamlessly integrate both functions [into your conversations](#sample-conversation---schedule-management) simply by interacting with the chatbot.
 
----
-
-**openai-whisper-talk**は、[Whisper](https://platform.openai.com/docs/guides/speech-to-text)（自動音声認識（ASR）システム）、[Chat completions](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)（アシスタントの役割を果たすモデルとの会話をシミュレートするインターフェース）、[Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings)（セマンティック検索などのタスクで使用できるベクターデータにテキストを変換する）、そして最新の[Text-to-speech](https://platform.openai.com/docs/guides/text-to-speech)（テキストをリアルな話し言葉のオーディオに変える）など、OpenAIの技術を駆使したサンプル音声会話アプリケーションです。このアプリケーションは、[Vue.js](https://vuejs.org/guide/introduction.html)に基づいたJavascriptフレームワークである[Nuxt](https://nuxt.com/docs/getting-started/introduction)を使用して構築されています。
-
-このアプリケーションには、「[スケジュール管理](#schedule-management)」と「[永続メモリ](#long-term-memory)」の2つの新機能があります。スケジュール管理を使用すると、チャットボットにスケジュールイベントの追加、変更、削除、取得を指示できます。永続メモリ機能を使用すると、将来の参照のためにチャットボットが覚えておく情報のスニペットを保存できます。これらの機能を[チャットボットとの対話](#sample-conversation---long-term-memory)を通じてシームレスに統合することができます。将来的に、いくつかの機能強化、たとえばメールやメッセージング機能を追加することで、完全な個人アシスタントになるかもしれません。
 
 
 # The App
